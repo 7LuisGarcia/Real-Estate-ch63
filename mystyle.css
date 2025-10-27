@@ -1,4 +1,6 @@
-/*global*/
+*{
+    margin: 0;
+}
 body{
     font-family: Arial;
 }
@@ -16,7 +18,7 @@ img{
 /*utilities*/
 .cotainer{
     width: 85%;
-    margin: 20px;
+    margin: 20px auto;
 }
 .btn{
     display: block;
@@ -31,7 +33,7 @@ img{
 /*header*/
 header{
     background-image: url(./img/header.jpg);
-    height: 300px;
+    height: 400px;
     background-size: cover;
     color: white;
     text-align: center;
