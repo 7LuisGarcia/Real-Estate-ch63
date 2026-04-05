@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    line-height: 1.5;
+}
+img{
+    max-width: 100%;
+}
+
+/*utilities*/
+.cotainer{
+    width: 85%;
+    margin: 20px auto;-
+}
+.btn{
+    display: block;
+    width: 100%;
+    background-color: orange;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/*header*/
+header{
+    background-image: url(./img_files/header.jpg);
+    height: 400px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*main*/
+.about-container{
+    display: flex;
+    justify-content: center;
+}
+.houses-container{
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.house-item{
+    background-color: #dedede;
+}
+.house-item-text{
+    padding: 20px;
+}
+.icon1{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;        
+}
+.icon2{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.icon3{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;  
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
